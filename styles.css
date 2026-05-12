@@ -1,5 +1,10 @@
 body {
     margin: 0;
-    background: maroon;
+    background: whitesmoke;
     text-align: center;
+}
+h1 {
+    margin: 5px;
+    background-color: maroon;
+    padding: 10px;
 }
