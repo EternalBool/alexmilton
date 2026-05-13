@@ -11,7 +11,7 @@
 }
 body {
     margin: 0;
-    background: rgb(230, 181, 176);
+    background: darkred;
     text-align: center;
     font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -22,10 +22,14 @@ h1 {
 p {
     font-weight: 400;
 }
+li {
+    list-style-type: disc;
+    margin-left: 0px;
+}
 #intro {
     background-color: rgb(22, 0, 0);
     margin: auto;
-    padding: 300px;
+    padding: 150px;
 }
 #intro h1 {
     text-align: center;
@@ -33,6 +37,19 @@ p {
 }
 #intro p {
     text-align: center;
+    color: white;
+}
+#about {
+    background-color: mistyrose;
+    text-align: left;
+    padding: 200px;
+}
+#contact {
+    background-color: brown;
+    margin: auto;
+    padding: 200px;
+}
+#contact h3 {
     color: white;
 }
 #navbar {
@@ -46,15 +63,20 @@ p {
     padding: 0px 10px;
     text-align: left;
 }
-.navelem {
+#navelemlogo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+#navelembuttons {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
 .navbutton {
     background-color: darkred;
     color: white;
-    padding: 18px 10px;
+    padding: 18px 14px;
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
@@ -65,4 +87,21 @@ p {
 }
 .navbutton:active {
     opacity: 0.8;
+}
+
+/* Scrollbar Settings */
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(22, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkred;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(180, 0, 0);
 }
