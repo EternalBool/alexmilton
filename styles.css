@@ -1,12 +1,36 @@
 body {
     margin: 0;
-    background: whitesmoke;
+    background: mistyrose;
     text-align: center;
 }
-h1 {
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
     margin: 5px;
     color: white;
-    background-color: maroon;
+    background-color: darkred;
     padding: 10px;
     text-align: left;
+}
+.navelem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbutton {
+    background-color: darkred;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.navbutton:hover {
+    background-color: brown;
+    color: white;
+}
+.navbutton:active {
+    opacity: 0.8;
 }
