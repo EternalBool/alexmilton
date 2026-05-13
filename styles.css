@@ -1,28 +1,60 @@
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 body {
     margin: 0;
-    background: mistyrose;
+    background: rgb(230, 181, 176);
     text-align: center;
+    font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}
+#intro {
+    background-color: rgb(22, 0, 0);
+    margin: auto;
+    padding: 300px;
+}
+#intro h1 {
+    text-align: center;
+    color: white;
+}
+#intro p {
+    text-align: center;
+    color: white;
 }
 #navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    margin: 5px;
+    margin: 0px;
     color: white;
     background-color: darkred;
-    padding: 10px;
+    padding: 0px 10px;
     text-align: left;
 }
 .navelem {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .navbutton {
     background-color: darkred;
     color: white;
-    padding: 10px 16px;
+    padding: 18px 10px;
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
