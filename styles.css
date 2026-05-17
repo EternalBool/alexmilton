@@ -52,7 +52,12 @@ li {
     padding: 50px;
 }
 #contact h3 {
-    color: rgb(245, 154, 126);
+    color: rgb(245, 155, 128);
+}
+#portfolio {
+    background-color: rgb(22, 0, 0);
+    margin: auto;
+    padding: 175px;
 }
 #navbar {
     display: flex;
@@ -93,7 +98,7 @@ li {
 .concon {
     width: 24px;
     height: 24px;
-    color: white;
+    padding: 0px 10px;
 }
 
 /* Scrollbar Settings */
