@@ -18,6 +18,9 @@ body {
 h1 {
     font-weight: 700;
 }
+h4 {
+    color: white;
+}
 p {
     font-weight: 400;
 }
@@ -28,7 +31,7 @@ li {
 #intro {
     background-color: rgb(22, 0, 0);
     margin: auto;
-    padding: 150px;
+    padding: 175px;
 }
 #intro h1 {
     text-align: center;
@@ -44,12 +47,12 @@ li {
     padding: 200px;
 }
 #contact {
-    background-color: brown;
+    background-color: rgb(101, 26, 3);
     margin: auto;
-    padding: 200px;
+    padding: 50px;
 }
 #contact h3 {
-    color: white;
+    color: rgb(245, 154, 126);
 }
 #navbar {
     display: flex;
@@ -86,6 +89,11 @@ li {
 }
 .navbutton:active {
     opacity: 0.8;
+}
+.concon {
+    width: 12px;
+    height: 12px;
+    color: white;
 }
 
 /* Scrollbar Settings */
