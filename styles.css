@@ -8,6 +8,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* Main Site */
 body {
     margin: 0;
     background: darkred;
@@ -53,26 +55,48 @@ li {
     background-color: rgb(101, 26, 3);
     color: rgb(245, 155, 128);
     margin: auto;
-    padding: 50px;
+    padding: 35px;
 }
 #contact h4 {
     color: rgb(245, 155, 128);
 }
 .concon {
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
     padding: 0px 10px;
 }
+
+/* Porfolio */
 #portfolio {
     background-color: rgb(22, 0, 0);
     color: white;
     margin: auto;
-    padding: 175px;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
 }
 #portfolio h1 {
     color: white;
     text-align: center;
 }
+.left {
+    width: 33%;
+    background-color: wheat;
+    padding: 50px;
+}
+.mid {
+    width: 33%;
+    background-color: goldenrod;
+    padding: 50px;
+}
+.right {
+    width: 33%;
+    background-color: wheat;
+    padding: 50px;
+}
+
+
+/* Navigation  Bar */
 #navbar {
     display: flex;
     align-items: center;
