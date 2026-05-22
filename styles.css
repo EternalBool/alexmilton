@@ -68,8 +68,29 @@ li {
 }
 #contact {
     background-color: rgb(22,0,0);
+    color: white;
+    padding: 100px;
+}
+#contact div {
     text-align: center;
-    padding: 250px;
+    margin: auto;
+    width: 500px;
+}
+#contact label {
+    display: block;
+    text-align: left;
+}
+#contact input {
+    width: 500px;
+    max-width: 500px;
+}
+#contact textarea {
+    width: 500px;
+    height: 100px;
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 400px;
+    min-height: 50px;
 }
 #footer {
     background-color: rgb(101, 26, 3);
