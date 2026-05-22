@@ -25,7 +25,7 @@ body {
     background: darkred;
     text-align: center;
     font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 h1 {
     font-weight: 700;
@@ -61,13 +61,22 @@ li {
 #about h3 {
     text-align: center;
 }
+#play {
+    background-color: darkred;
+    text-align: center;
+    padding: 175px;
+}
 #contact {
+    background-color: rgb(22,0,0);
+    text-align: center;
+    padding: 250px;
+}
+#footer {
     background-color: rgb(101, 26, 3);
     color: rgb(245, 155, 128);
-    margin: auto;
-    padding: 35px;
+    padding: 5px;
 }
-#contact h4 {
+#footer h4 {
     color: rgb(245, 155, 128);
 }
 #concontain {
@@ -131,7 +140,6 @@ li {
     margin: 0px;
     color: white;
     background-color: darkred;
-    padding: 0px 10px;
     text-align: left;
 }
 #navelemlogo {
@@ -147,7 +155,7 @@ li {
 .navbutton {
     background-color: darkred;
     color: white;
-    padding: 18px 14px;
+    padding: 32px 14px;
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
