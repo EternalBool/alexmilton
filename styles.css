@@ -69,7 +69,7 @@ li {
 #contact {
     background-color: rgb(22,0,0);
     color: white;
-    padding: 100px;
+    padding: 30px;
 }
 #contact div {
     text-align: center;
@@ -82,7 +82,14 @@ li {
 }
 #contact input {
     width: 500px;
+    height: 50px;
     max-width: 500px;
+    border-radius: 10px;
+    border: 5px solid white;
+    transition: border-color 0.3s ease;
+    font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
 }
 #contact textarea {
     width: 500px;
@@ -91,14 +98,38 @@ li {
     min-width: 500px;
     max-height: 400px;
     min-height: 50px;
+    border-radius: 10px;
+    border: 5px solid white;
+    transition: border-color 0.3s ease;
+    font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+#contact input:focus, #contact textarea:focus {
+    outline: none;
+    border: 5px solid darkred;
+}
+#contact button {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    border: 3px solid white;
+    font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#contact button:hover {
+    background-color: brown;
 }
 #footer {
     background-color: rgb(101, 26, 3);
     color: rgb(245, 155, 128);
-    padding: 5px;
+    padding: 20px;
 }
 #footer h4 {
     color: rgb(245, 155, 128);
+    margin:7px 0;
 }
 #concontain {
     justify-content: center;
