@@ -159,6 +159,26 @@ li {
 #portfolio h1 {
     text-align: center;
 }
+#battlepong {
+    justify-content: center;
+    color: white;
+}
+.buttholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+.buildbutts {
+    background-color: darkred;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: "Comic Relief", system-ui, Arial, Helvetica, sans-serif;
+    width: 75px;
+    height: 75px;
+    gap: 20px;
+}
 .dynamic {
     background: rgb(22, 0, 0);
     color: rgb(22, 0, 0);
