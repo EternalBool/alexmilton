@@ -179,6 +179,20 @@ li {
     height: 75px;
     gap: 20px;
 }
+.buildbutts:hover {
+    background-color: brown;
+}
+#bpdescframe {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: darkred;
+    display: block;
+    margin: auto;
+    width: 60%;
+    transition: max-height 0.7s ease;
+    max-height: 0;
+    overflow: hidden;
+}
 .dynamic {
     background: rgb(22, 0, 0);
     color: rgb(22, 0, 0);
