@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../ui.js" defer></script>
 </head>
 <body>
     <nav id="navbar">
@@ -34,9 +35,12 @@
         <section id="battlepong">
             <iframe src="../games/battlepong/index.html" frameborder="10px" width="970" height="600" style="border: 5px solid white; border-radius: 10px;" allowfullscreen></iframe><br>
             <div class="buttholder">
-                <button class="buildbutts">Desc</button>
-                <button class="buildbutts">Controls</button>
-                <button class="buildbutts">Skills</button>
+                <button class="buildbutts" id="desc" onclick="toggleDesc('desc')">Desc</button>
+                <button class="buildbutts" id="controls" onclick="toggleDesc('ctrls')">Controls</button>
+                <button class="buildbutts" id="skills" onclick="toggleDesc('skills')">Skills</button>
+            </div>
+            <div id="bpdescframe">
+                <p id="bpdesc"></p>
             </div>
         </section>
     </header>
