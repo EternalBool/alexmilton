@@ -182,7 +182,7 @@ li {
 .buildbutts:hover {
     background-color: brown;
 }
-#bpdescframe {
+#battlepongdescframe {
     border: 5px solid white;
     border-radius: 10px;
     background-color: darkred;
