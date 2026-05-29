@@ -193,6 +193,10 @@ li {
     max-height: 0;
     overflow: hidden;
 }
+#battlepongdesc {
+    white-space: pre-wrap;
+    margin: 20px;
+}
 .dynamic {
     background: rgb(22, 0, 0);
     color: rgb(22, 0, 0);
