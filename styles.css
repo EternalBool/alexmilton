@@ -186,16 +186,23 @@ li {
     border: 5px solid white;
     border-radius: 10px;
     background-color: darkred;
-    display: block;
     margin: auto;
     width: 60%;
     transition: max-height 0.7s ease;
     max-height: 0;
     overflow: hidden;
 }
-#battlepongdesc {
-    white-space: pre-wrap;
+#battlepongdescframe > * {
     margin: 20px;
+    font-weight: 600;
+}
+#battlepongdescframe div {
+    display: flex;
+}
+#battlepongdescframe section {
+    width: 50%;
+    text-align: left;
+    padding: 10px;
 }
 .dynamic {
     background: rgb(22, 0, 0);
