@@ -25,6 +25,25 @@ const playthings = {
         <p>R - Quick Restart (During Game Over Panel)</p>`,
         skills: ["Unity", "C#"],
     },
+    painchain:{
+        toggled: false,
+        lastTab: null,
+        closed: "0rem",
+        opened: "20rem",
+        description: `<p>TX GAME JAM 2026 ENTRY (THEME: CHAIN REACTION)</p>`,
+        controls:   
+        `<div>
+            <section>
+            <span style="display: block; text-align: center">Player 1 ~</span>
+                W - Up Arrow<br>
+                A - Left Arrow<br>
+                S - Down Arrow<br>
+                D - Right Arrow<br>
+                Space - Diamond (◆)<br>
+            </section>
+        </div>`,
+        skills: ["Unity", "C#"],
+    }
 }
 
 function toggleDesc(frame, button) {
