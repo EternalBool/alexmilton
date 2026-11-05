@@ -32,23 +32,23 @@
     <header id="portfolio">
         <h1>Solo Dev</h1>
         <hr style="width: 7%; border-width: 2px; border: none; border-radius: 10px; border-top: 5px solid white;"/><br>
-        <section id="battlepong">
+        <section id="battlepong" class="gameframe">
             <iframe src="../games/battlepong/index.html" frameborder="10px" width="970" height="600" style="border: 5px solid white; border-radius: 10px;" allowfullscreen></iframe><br>
             <div class="buttholder">
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'description')">Desc</button>
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'controls')">Controls</button>
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'skills')">Skills</button>
             </div>
-            <div id="battlepongdescframe"></div>
+            <div id="battlepongdescframe" class="descframe bp"></div>
         </section>
-        <section id="painchain">
+        <section id="painchain" class="gameframe">
             <iframe src="../games/painchain/index.html" frameborder="10px" width="970" height="600" style="border: 5px solid white; border-radius: 10px;" allowfullscreen></iframe><br>
             <div class="buttholder">
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'description')">Desc</button>
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'controls')">Controls</button>
                 <button class="buildbutts" onclick="toggleDesc(this.parentElement.parentElement.id, 'skills')">Skills</button>
             </div>
-            <div id="painchaindescframe"></div>
+            <div id="painchaindescframe" class="descframe pc"></div>
         </section>
     </header>
     <!--

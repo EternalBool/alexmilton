@@ -159,14 +159,25 @@ li {
 #portfolio h1 {
     text-align: center;
 }
-.buttholder {
+
+#battlepong {--desc-color: darkred}
+#painchain {--desc-color: rgb(182, 73, 0)}
+
+.gameframe {
+    justify-content: center;
+    color: white;
+}
+.gameframe div {
+    margin: 30px auto;
+}
+.gameframe div.buttholder {
     display: flex;
     justify-content: center;
     margin-top: 25px;
     gap: 10px;
 }
-.buildbutts {
-    background-color: darkred;
+.gameframe button.buildbutts {
+    background-color: var(--desc-color);
     border: 3px solid white;
     border-radius: 10px;
     color: white;
@@ -175,41 +186,35 @@ li {
     height: 75px;
     gap: 20px;
 }
-.buildbutts:hover {
-    background-color: brown;
+.gameframe button.buildbutts:hover {
+    background-color: color-mix(in srgb, var(--desc-color) 70%, black);
 }
-
-#battlepong {
-    justify-content: center;
-    color: white;
-}
-#battlepong div {
-    margin: 30px auto;
-}
-#battlepongdescframe {
+.descframe {
     border: 5px solid white;
     border-radius: 10px;
-    background-color: darkred;
+    background-color: var(--desc-color);
     margin: auto;
     width: 60%;
     transition: max-height 0.7s ease;
     max-height: 0;
     overflow: hidden;
 }
-#battlepongdescframe > * {
+.descframe > * {
     margin: 20px;
     font-weight: 600;
 }
-#battlepongdescframe div {
+.descframe div {
     display: flex;
     padding: 50px;
 }
-#battlepongdescframe section {
+.descframe section {
     width: 50%;
     text-align: left;
     padding: 10px;
 }
 
+
+/*
 #painchain {
     justify-content: center;
     color: white;
@@ -239,6 +244,7 @@ li {
     text-align: left;
     padding: 10px;
 }
+*/
 
 .dynamic {
     background: rgb(22, 0, 0);
